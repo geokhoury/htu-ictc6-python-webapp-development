@@ -1,3 +1,7 @@
-Add static files here. Files in this directory will be copied directly to `dist` folder during build. For example, /static/robots.txt will be located at https://yoursite.com/robots.txt.
+# HTU ICTC6 - Web Application Development Using Python 
 
-This file should be deleted.
+| Session                                        | Class Assignment             | Practical Assignment |
+| :--------------------------------------------- | :--------------------------- | :------------------: |
+| **Week 1**                                     |
+| **Week 2**                                     |
+| [W2S1 - Introduction to Programming](./W2/S1/) | [CA01](./W2/S1/CA01/CA01.md) |          NA          |
