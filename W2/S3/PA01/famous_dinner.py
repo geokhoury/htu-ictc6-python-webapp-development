@@ -38,7 +38,7 @@ print("\nSorry, we can only invite two people to dinner.")
 # TODO: There should be two people left. Let's invite them.
 
 # We all have good food, and good conversation. Time to go.
-print("Good food. Good conversation. Bye for now.")
+print("\nGood food. Good conversation. Bye for now.")
 
 # TODO: Empty out your guest list.
 
