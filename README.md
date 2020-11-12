@@ -11,7 +11,9 @@
 | [S3 - Tuples, Sets, Dictionaries](./W2/lecture-notes/)         | [Exercise Files](./W2/S3) | [CA03](./W2/S3/CA03/CA03.md) | [PA01](./W2/S3/PA01/PA01.md) |
 | **Week 3**                                                     |
 | [S1 - Flow Control](./W3/lecture-notes/)                       | [Exercise Files](./W3/S1) | [CA04](./W3/S1/CA04/CA04.md) |              NA              |
-| [S2 - Functions](./W3/S2/)                                     | NA                        | NA                           |              NA              |
-| [S3 - Functions](./W3/S3/)                                     | NA                        | NA                           |              NA              |
+| [S2 - Functions](./W3/lecture-notes/)                          | [Exercise Files](./W3/S2) | [CA05](./W3/S2/CA05/CA05.md) |              NA              |
+| [S3 - Functions](./W3/lecture-notes/)                          | [Exercise Files](./W3/S3) | [CA06](./W3/S3/CA06/CA06.md) |              NA              |
 | **Week 4**                                                     |
-`
+| [S1 - Flow Control](./W4/lecture-notes/)                       | [Exercise Files](./W4/S1) | [CA07](./W4/S1/CA07/CA07.md) |              NA              |
+| [S2 - Functions](./W4/S2/)                                     | NA                        | NA                           |              NA              |
+| [S3 - Functions](./W4/S3/)                                     | NA                        | NA                           |              NA              |
