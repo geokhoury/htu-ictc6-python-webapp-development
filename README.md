@@ -14,6 +14,6 @@
 | [S2 - Functions](./W3/lecture-notes/)                          | [Exercise Files](./W3/S2) | [CA05](./W3/S2/CA05/CA05.md) |              NA              |
 | [S3 - Functions](./W3/lecture-notes/)                          | [Exercise Files](./W3/S3) | [CA06](./W3/S3/CA06/CA06.md) | [PA02](./W3/S3/PA02/PA02.md) |
 | **Week 4**                                                     |
-| [S1 - Flow Control](./W4/lecture-notes/)                       | [Exercise Files](./W4/S1) | [CA07](./W4/S1/CA07/CA07.md) |              NA              |
-| [S2 - Functions](./W4/S2/)                                     | NA                        | NA                           |              NA              |
+| [S1 - Object Oriented Programming](./W4/lecture-notes/)        | [Exercise Files](./W4/S1) | [CA07](./W4/S1/CA07/CA07.md) |              NA              |
+| [S2 - Object Oriented Programming](./W4/lecture-notes/)        | NA                        | NA                           |              NA              |
 | [S3 - Functions](./W4/S3/)                                     | NA                        | NA                           |              NA              |
