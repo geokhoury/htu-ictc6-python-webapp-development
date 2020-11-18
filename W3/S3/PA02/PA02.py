@@ -43,7 +43,7 @@ def player_choice(player, board):
     # Check if the player choice is empty
     pass
 
-def player_input():
+def assign_players():
     player1 = input("\nPlease pick a marker 'X' or 'O': ")
     while True:
         # TODO: Check if player1 chose 'X', then set player2 to 'O' and return the players 
