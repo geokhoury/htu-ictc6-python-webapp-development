@@ -16,4 +16,5 @@
 | **Week 4**                                                     |
 | [S1 - Object Oriented Programming](./W4/lecture-notes/)        | [Exercise Files](./W4/S1) | [CA07](./W4/S1/CA07/CA07.md) |              NA              |
 | [S2 - Object Oriented Programming](./W4/lecture-notes/)        | NA                        | NA                           |              NA              |
-| [S3 - Functions](./W4/S3/)                                     | NA                        | NA                           |              NA              |
+| [S3 - Inheritance](./W4/lecture-notes/)                        | [Exercise Files](./W4/S3) | [CA08](./W4/S3/CA08/CA08.md) | [PA03](./W4/S3/PA03/PA03.md) |
+| **Week 5**                                                     |
