@@ -18,3 +18,4 @@
 | [S2 - Object Oriented Programming](./W4/lecture-notes/)        | NA                        | NA                           |              NA              |
 | [S3 - Inheritance](./W4/lecture-notes/)                        | [Exercise Files](./W4/S3) | [CA08](./W4/S3/CA08/CA08.md) | [PA03](./W4/S3/PA03/PA03.md) |
 | **Week 5**                                                     |
+|[S1 - Python Programming Basics -- Review](./W5/)               | [Exercise Files](./W5/) | [CA09](./W5/S1/CA09/CA09.md) | NA |
