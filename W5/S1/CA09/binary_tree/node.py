@@ -49,7 +49,7 @@ class Node:
 # Instantiating a tree with the root node with value (10)
 root = Node(10)
 
-# Our tree look like this now
+# Our tree looks like this now
 #        10
 #      /    \
 #     None   None
@@ -60,7 +60,7 @@ root.left = Node(24)
 # Setting the right child of the root to 89
 root.right = Node(42)
 
-# Our tree look like this now
+# Our tree looks like this now
 #          10
 #        /    \
 #      24      42

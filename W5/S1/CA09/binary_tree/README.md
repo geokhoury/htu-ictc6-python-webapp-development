@@ -27,7 +27,7 @@ A binary tree supports multiple methods of traversal, and we will be implementin
 For our sample tree, it looks like this.
 
 ```python
-# Our tree look like this now
+# Our tree looks like this now
 #          10
 #        /    \
 #      24      42
@@ -41,21 +41,13 @@ For our sample tree, it looks like this.
 
 ### 3. Sum Root to Leaf Numbers
 
-Solve the problem [here](https://leetcode.com/problems/sum-root-to-leaf-numbers/) using Python.
+* Solve the problem [here](https://leetcode.com/problems/sum-root-to-leaf-numbers/) using Python.
 
 ### 4. Symmetric Trees
 
-Solve the problem [here](https://leetcode.com/problems/symmetric-tree/) using Python.
+* Solve the problem [here](https://leetcode.com/problems/symmetric-tree/) using Python.
 
 ### 5. Find Largest and Second Largest
 
   * `find_largest(self, root)` -- Retruns the value of the largest node.
   * `find_second_largest(self, root)` -- Retruns the value of the second largest node.
-
-
-
-
-
-
-
-

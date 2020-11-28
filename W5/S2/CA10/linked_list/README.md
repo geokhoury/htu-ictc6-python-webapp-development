@@ -19,7 +19,7 @@ For this problem we will implement a simple [Linked List](http://cslibrary.stanf
 
 A binary tree is a non-linear data structure and therefore there is more than one way to traverse (run) through the tree data.
 
-A binary tree supports multiple methods of traversal, and we will be implementing the follwoing:
+A binary tree supports multiple methods of traversal, and we will be implementing the following:
     * `print_inorder(self, root)` -- Prints the tree with **inorder traversal**.
     * `print_preorder(self, root)` -- Prints the tree with **preorder traversal**.
     * `print_postorder(self, root)` -- Prints the tree with **postorder traversal**.
@@ -49,5 +49,5 @@ For our sample tree, it looks like this.
 
 ### 5. Find Largest and Second Largest
 
-  * `find_largest(self, root)` -- Retruns the value of the largest node.
-  * `find_second_largest(self, root)` -- Retruns the value of the second largest node.
+  * `find_largest(self, root)` -- Returns the value of the largest node.
+  * `find_second_largest(self, root)` -- Returns the value of the second largest node.
