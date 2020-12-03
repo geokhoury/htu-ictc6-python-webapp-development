@@ -23,5 +23,5 @@
 | [S3 - Programming Basics - Review 3](./W5/)               | [Exercise Files](./W5/)   | [CA11](./W5/S3/CA11/CA11.md) | [PA03](./W5/S3/PA03/PA03.md) |
 | **Week 6 - Version Control**                              |
 | [S1 - Exceptions, Decorators, and File IO](./W6/lectures-notes)         | [Exercise Files](./W6/S1) | [CA12](./W6/S1/CA12/CA12.md) |              NA              |
-| [S2 - Version Control Systems and Git](./W6/)             | [Exercise Files](./W6/)   | [CA13](./W6/S2/CA13/CA13.md) |              NA              |
-| [S3 - Branches, and Conflict Resolution](./W6/)           | [Exercise Files](./W6/)   | [CA14](./W6/S3/CA14/CA14.md) | [PA04](./W6/S3/PA04/PA04.md) |
+| [S2 - Version Control Systems and Git](./W6/lectures-notes)            | [Exercise Files](./W6/)   | [CA13](./W6/S2/CA13/CA13.md) |              NA              |
+| [S3 - Branches, and Conflict Resolution](./W6/lectures-notes)          | [Exercise Files](./W6/)   | [CA14](./W6/S3/CA14/CA14.md) | [PA04](./W6/S3/PA04/PA04.md) |
