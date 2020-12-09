@@ -17,7 +17,7 @@
 | [S1 - Object Oriented Programming 1](./W4/lecture-notes/)           | [Exercises](./W4/S1) | [CA07](./W4/S1/CA07/CA07.md) |              NA              |
 | [S2 - Object Oriented Programming 2](./W4/lecture-notes/)           | NA                   | NA                           |              NA              |
 | [S3 - Inheritance](./W4/lecture-notes/)                             | [Exercises](./W4/S3) | [CA08](./W4/S3/CA08/CA08.md) |              NA              |
-| **Week 5 - Exceptions and File IO**                                 |
+| **Week 5 - Review Week**                                            |
 | [S1 - Programming Basics - Review 1](./W5/)                         | NA                   | [CA09](./W5/S1/CA09/CA09.md) |              NA              |
 | [S2 - Programming Basics - Review 2](./W5/)                         | NA                   | [CA10](./W5/S2/CA10/CA10.md) |              NA              |
 | [S3 - Programming Basics - Review 3](./W5/)                         | NA                   | [CA11](./W5/S3/CA11/CA11.md) | [PA03](./W5/S3/PA03/PA03.md) |
