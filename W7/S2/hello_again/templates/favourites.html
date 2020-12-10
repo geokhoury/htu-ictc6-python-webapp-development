@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Favourite Python Topics</title>
+  </head>
+  <body>
+    {% if name %}
+    <h1>{{name | capitalize}}'s favourite Python topics are:</h1>
+    {% else %}
+    <h1>My favourite Python topics are:</h1>
+    {% endif %}
+    <ul>
+        {% for topic in topics %}
+        <li>{{topic}}</li>
+        {% endfor %}
+    </ul>
+  </body>
+</html>

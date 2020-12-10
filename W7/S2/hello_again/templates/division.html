@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Division</title>
+  </head>
+  <body>
+    <h1>Dividing Two Numbers</h1>
+    <p><b>First Number (x): </b>{{n1}}</p>
+    <p><b>Second Number (y): </b>{{n2}}</p>
+
+    {% if n2 == 0%}
+    <p><b>You cannot divide by Zero.</b></p>
+    {% else %}
+    <p><b>x / y = </b>{{n1/n2}}</p>
+    {% endif %}
+  </body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Greet</title>
+  </head>
+  <body>
+    <h1>
+      {% if name %} Hello, {{ name|capitalize }}! {% else %} Hello, Python!
+      {%endif%}
+    </h1>
+    <h1>I am rendered using Flask.</h1>
+    <h2>
+      You can read more about this
+      <a
+        href="https://flask.palletsprojects.com/en/1.1.x/quickstart/#rendering-templates"
+        target="_blank"
+        >here</a
+      >.
+    </h2>
+    <a href="{{go_home}}">Go back!</a>
+  </body>
+</html>

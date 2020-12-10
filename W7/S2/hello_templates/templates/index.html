@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, Flask!</title>
+    <link rel="stylesheet" href="{{global_style}}" />
+  </head>
+  <body>
+    <div>
+      <h1>I am rendered using Flask.</h1>
+      <h2>
+        You can read more about this
+        <a
+          href="https://flask.palletsprojects.com/en/1.1.x/quickstart/#rendering-templates"
+          target="_blank"
+          >here</a
+        >.
+      </h2>
+    </div>
+    <div>
+      <h3>Our Menu:</h3>
+      <ul>
+        {% for menu_item in menu %}
+        <li><a href="{{ menu_item.url }}">{{ menu_item.title|upper }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </body>
+</html>
