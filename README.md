@@ -27,5 +27,5 @@
 | [S3 - Branches, and Conflict Resolution](./W6/lecture-notes)   | NA                   | [CA14](./W6/S3/CA14/CA14.md) |              NA              |
 | **Week 7 - Web Application Development**                       |
 | [S1 - Web Application Development](./W7/lecture-notes)         | [Exercises](./W7/S1) | [CA15](./W7/S1/CA15/CA15.md) |              NA              |
-| [S2 - Flask - Part 1](./W7/lecture-notes)                      | NA                   | [CA16](./W7/S2/CA16/CA16.md) |              NA              |
-| [S3 - Flask - Part 2](./W7/lecture-notes)                      | NA                   | [CA17](./W7/S3/CA17/CA17.md) | [PA04](./W7/S3/PA04/PA04.md) |
+| [S2 - Flask, Routing and Templates](./W7/lecture-notes)        | NA                   | [CA16](./W7/S2/CA16/CA16.md) |              NA              |
+| [S3 - Bootstrap, Template Inheritance](./W7/lecture-notes)     | NA                   | [CA17](./W7/S3/CA17/CA17.md) |              NA              |
