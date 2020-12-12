@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}myMDB - Server Error{% endblock %}
+
+{% block main %}
+
+<section class="py-5 text-center container">
+    <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">Server Error</h1>
+            <p class="lead text-muted">Ooop! Something went wrong.</p>
+            <p>
+                <a href="{{url_for('index')}}" class="btn btn-secondary my-2">Homepage</a>
+                <a href="{{url_for('watchlist')}}" class="btn btn-secondary my-2">Your Watch List</a>
+                <a href="{{url_for('top_rated')}}" class="btn btn-secondary my-2">Top Rated Movies</a>
+            </p>
+        </div>
+    </div>
+</section>
+{% endblock %}

@@ -1,0 +1,50 @@
+{% extends 'base.html' %} {% block main %}
+
+<section class="py-5 text-center container">
+  <div class="row py-lg-5">
+    <div class="col-lg-6 col-md-8 mx-auto">
+      <h1 class="fw-dark">Add Movie</h1>
+      <p class="lead text-muted">Add a movie to your watch list.</p>
+    </div>
+  </div>
+</section>
+
+<div class="py-5 bg-light">
+  <div class="container">
+    <h4 class="mb-3">Add Movie</h4>
+    <form method="POST" action="{{url_for('add_movie')}}">
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="title">Title</label>
+          <input type="text" class="form-control" id="title" name="title" placeholder="The Lion King" value="" required="">
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="year">Year</label>
+          <input type="text" class="form-control" id="year" name="year" placeholder="1994" value="" required="">
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="rating">Rating</label>
+        <div class="input-group">
+          <input type="text" class="form-control" id="rating" name="rating" placeholder="8.0" required="">
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="description">Description</label>
+        <textarea type="text" class="form-control" id="description" name="description" placeholder="To survive and grow into a powerful adult lion, Simba must perfect his savage pounce and master fighting with all four paws. Scrap with hyenas, dash through an elephant graveyard, defeat your evil uncle Scar and recapture the Pridelands."></textarea>
+      </div>
+      <div class="mb-3">
+        <label for="imdb-url">IMDB URL</label>
+        <input type="text" class="form-control" id="imdb-url" name="imdbURL" placeholder="https://www.imdb.com/title/tt0323073/" required="">
+      </div>
+      <div class="mb-3">
+        <label for="image-url">Image URL</label>
+        <input type="text" class="form-control" id="image-url"  name="imageURL" placeholder="https://www.imdb.com/title/tt0323073/">
+      </div>
+      <hr class="mb-4">
+      <button class="btn btn-primary btn-lg btn-block" type="submit">Add Movie</button>
+    </form>
+  </div>
+</div>
+
+{% endblock %}

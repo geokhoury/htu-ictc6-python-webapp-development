@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+
+<!-- title block -->
+{% block title %}
+myMDB - Top Movies
+{% endblock %}
+
+<!-- main content block -->
+{% block main %}
+
+<section class="py-5 text-center container">
+  <div class="row py-lg-5">
+    <div class="col-lg-6 col-md-8 mx-auto">
+      <h1 class="fw-dark">Top Rated Movies</h1>
+      <p class="lead text-muted">Top Rated movies on <a href="https://imdb.com" target="_blank">IMDB</a></p>
+    </div>
+  </div>
+</section>
+
+<div class="py-5 bg-light">
+  <div class="container">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Title</th>
+          <th scope="col">Year</th>
+          <th scope="col">Rating</th>
+          <th scope="col">IMDB URL</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for movie in top_rated_movies %}
+        <tr>
+          <th scope="row">{{loop.index}}</th>
+          <td>{{movie.title}}</td>
+          <td>{{movie.year}}</td>
+          <td>{{movie.rating}}</td>
+          <td><a href="{{movie.imdb_url}}" target="_blank">View on IMDB</a></td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+{% endblock %}
+
+<!-- footer block -->
+{% block footer %}
+<footer class="text-muted py-5">
+  <div class="container">
+    <p class="float-end mb-1">
+      <a href="#">Back to top</a>
+    </p>
+    <p class="mb-1">This is a custom footer for the page Top Movies.</p>
+  </div>
+</footer>
+{% endblock %}

@@ -1,0 +1,38 @@
+{% extends 'base.html' %} {% block main %}
+
+<section class="py-5 text-center container">
+  <div class="row py-lg-5">
+    <div class="col-lg-6 col-md-8 mx-auto">
+      <h1 class="fw-dark">Watchlist</h1>
+      <p class="lead text-muted">Movies on our watch list</p>
+    </div>
+  </div>
+</section>
+
+<div class="py-5 bg-light">
+  <div class="container">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      {% for movie in movies %}
+      <div class="card" style="width: 18rem;">
+        <img src="{{movie.image_url}}" class="card-img-top" alt="...">
+    
+        <div class="card-body">
+          <h5 class="card-title">{{movie.title}}</h5>
+          <p class="card-text">{{movie.description}}</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><b>Year:</b> {{movie.year}}</li>
+          <li class="list-group-item"><b>Rating:</b> {{movie.rating}}</li>
+        </ul>
+        <div class="card-body">
+          <a href="{{movie.imdb_url}}" class="card-link" target="_blank">View on IMDB</a>
+          <a href="/doesnotexist" class="card-link">Another link</a>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
+
+{% endblock %}
