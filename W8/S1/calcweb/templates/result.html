@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content%}
+
+<h1>Your Result</h1>
+
+<div>
+    {% if operation == 'add' %}
+    <h2><b> {{n1}} + {{n2}} = </b>{{result}}</h2>
+    {% elif operation == 'subtract' %}
+    <h2><b> X - Y = </b>{{result}}</h2>
+    {% elif operation == 'divide' %}
+    <h2><b> X / Y = </b>{{result}}</h2>
+    {% elif operation == 'multiply' %}
+    <h2><b> X * Y = </b>{{result}}</h2>
+    {% else %}
+    <h2><b>I don't know how to do '{operation}'. Try again!</b></h2>
+    {% endif %}
+</div>
+
+{% endblock %}
