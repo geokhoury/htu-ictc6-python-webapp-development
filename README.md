@@ -30,6 +30,6 @@
 | [Flask, Routing and Templates](./W7/lecture-notes)          | [S2](./W7/S2) | [CA16](./W7/S2/CA16/CA16.md) |              NA              |
 | [Bootstrap, Template Inheritance](./W7/lecture-notes)       | [S3](./W7/S3) | [CA17](./W7/S3/CA17/CA17.md) |              NA              |
 | **Week 8 - Web Application Development**                    |
-| [HTTP POST and HTML Forms](./W8/lecture-notes)              | [S1](./W8/S1) | NA                           |              NA              |
+| [HTTP POST and HTML Forms](./W8/lecture-notes)              | [S1](./W8/S1) | [CA18](./W8/S1/CA18/CA18.md) |              NA              |
 | [WTForms and Flask Sessions](./W8/lecture-notes)            | [S2](./W8/S2) | NA                           |              NA              |
 | [Using SQLite 3 with Flask](./W8/lecture-notes)             | [S3](./W8/S3) | NA                           |              NA              |
