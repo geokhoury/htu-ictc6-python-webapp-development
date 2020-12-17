@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- add onclick listener -->
+
+    <button onclick="say_hello()" ondragenter="">Click Me!</button>
+    </hr>
+    <div id="my_div" style="background-color: red; width: 100%; height:100%" onmouseover="say_goodbye()">
+        <label>text</label>
+    </div>
+    <div style="margin-top: 1rem;">
+        <input id="my_counter" type="number" value=1>
+        <button onclick="increment()">Increment</button>
+    </div>
+
+    <div style="margin-top: 1rem;">
+        <input id="my_input" type="number" value=1>
+        <button onclick="button_1()">1</button>
+        <button onclick="button_2()">2</button>
+    </div>
+
+    <div style="margin-top: 1rem;">
+        <input id="upper_name" onchange="uppercase()">
+    </div>
+
+    <script>
+        // javascript function
+        function say_hello() {
+            alert("Hello, JS!")
+        }
+
+        function say_goodbye() {
+            alert("goodbye!")
+            document.getElementById("my_div").style = "background-color:blue;"
+        }
+
+        function increment(){
+            alert("Increment was clicked!")
+            my_counter = document.getElementById("my_counter")
+            alert("The value is: " + my_counter.value)
+            my_counter.value++
+            alert("The value now is: " + my_counter.value)
+        }
+
+        function button_1(){
+            document.getElementById("my_input").value = document.getElementById("my_input").value + 1 
+        }
+
+        function button_2(){
+            document.getElementById("my_input").value = document.getElementById("my_input").value + 2 
+        }
+
+        function uppercase(){
+            document.getElementById("upper_name").value = document.getElementById("upper_name").value.toUpperCase()
+        }
+    </script>
+</body>
+
+</html>
