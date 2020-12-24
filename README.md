@@ -34,9 +34,9 @@
 | [HTML Form Submissions](./W8/lecture-notes)                 | [S2](./W8/S2)  | NA                           |              NA              |
 | [Flask Sessions](./W8/lecture-notes)                        | [S3](./W8/S3)  | NA                           |              NA              |
 | **Week 9 - Web Forms**                                      |
-| [Forms using WTForms](./W9/lecture-notes)                   | [S1](./W9/S1)  | [CA19](./W9/S1/CA19/CA19.md) | [PA04](./W8/S1/PA04/PA04.md) |
+| [Forms using WTForms](./W9/lecture-notes)                   | [S1](./W9/S1)  | [CA19](./W9/S1/CA19/CA19.md) | [PA04](./W9/S1/PA04/PA04.md) |
 | No Class                                                    | NA             | NA                           |              NA              |
-| No Class                                                    | NA             | NA                           |              NA              |
+| No Class                                                    | NA             | NA                           |              NA        git      |
 | **Week 10 - Organizing Views using Blueprints**             |
 | [Flask Blueprints](./W10/lecture-notes)                     | [S1](./W10/S1) | NA                           |              NA              |
 | No Class                                                    | NA             | NA                           |              NA              |
