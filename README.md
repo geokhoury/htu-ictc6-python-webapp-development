@@ -36,13 +36,13 @@
 | **Week 9 - Web Forms**                                      |
 | [Forms using WTForms](./W9/lecture-notes)                   | [S1](./W9/S1)  | [CA19](./W9/S1/CA19/CA19.md) | [PA04](./W9/S1/PA04/PA04.md) |
 | No Class                                                    | NA             | NA                           |              NA              |
-| No Class                                                    | NA             | NA                           |              NA        git      |
+| No Class                                                    | NA             | NA                           |              NA              |
 | **Week 10 - Organizing Views using Blueprints**             |
-| [Flask Blueprints](./W10/lecture-notes)                     | [S1](./W10/S1) | NA                           |              NA              |
+| [Flask Blueprints](./W10/lecture-notes)                     | [S1](./W10/S1) | NA                           | [PA05](./W10/S1/PA05/PA05.md) |
 | No Class                                                    | NA             | NA                           |              NA              |
 | No Class                                                    | NA             | NA                           |              NA              |
 | **Week 11 - Databases**                                     |
-| [W11S1](./W11/lecture-notes)                                | [S1](./W11/S1) | [CA](./W10/S1/CA18/CA18.md)  |              NA              |
+| [W11S1](./W11/lecture-notes)                                | [S1](./W11/S1) | [CA](./W10/S1/CA18/CA18.md)  | [PA06](./W11/S1/PA06/PA06.md) |
 | [W11S2](./W11/lecture-notes)                                | [S2](./W11/S2) | NA                           |              NA              |
 | [W11S3](./W11/lecture-notes)                                | [S3](./W11/S3) | NA                           |              NA              |
 | **Week 12 - Databases**                                     |
