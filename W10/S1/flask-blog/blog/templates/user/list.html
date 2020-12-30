@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+<!-- header block -->
+{% block header %}
+<h1>{% block title %}Users{% endblock %}</h1>
+{% endblock %}
+
+<!-- content block -->
+{% block content %} {% for user in users %}
+<article class="post">
+  <header>
+    <div>
+      <h1>{{ user['username'] }}</h1>
+    </div>
+  </header>
+</article>
+
+{% if not loop.last %}
+<hr />
+{% endif %} {% endfor %} {% endblock %}

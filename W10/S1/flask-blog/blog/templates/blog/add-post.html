@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+<!-- header block -->
+{% block header %}
+<h1>{% block title %}Add Post{% endblock %}</h1>
+{% endblock %}
+
+<!-- content block -->
+{% block content %}
+<form method="POST" action="">
+  <div class="row">
+    <div class="col-md-6 mb-3">
+      <label for="title">Post Title:</label>
+      <input
+        type="text"
+        class="form-control"
+        id="title"
+        name="title"
+        placeholder="Enter a title"
+        required
+      />
+    </div>
+    <div class="col-md-6 mb-3">
+      <label for="body-post">Post Body:</label>
+      <textarea
+        type="text"
+        class="form-control"
+        id="body-post"
+        name="body-post"
+        placeholder="Enter your text"
+        required=""
+      ></textarea>
+    </div>
+  </div>
+  <hr class="mb-4" />
+  <button class="btn btn-primary btn-lg btn-block" type="submit">
+    Create post
+  </button>
+</form>
+{% endblock %}
