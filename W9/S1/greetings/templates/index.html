@@ -1,0 +1,43 @@
+{% extends 'base.html' %} {% block main %}
+
+<!-- container for alerts -->
+<div class="container">
+  {% for message in get_flashed_messages() %}
+  <div class="alert alert-warning alert-dismissible fade show" role="alert">
+    <strong>Holy guacamole!</strong> {{ message }}
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+  {% endfor %}
+</div>
+
+<!-- section with greeting -->
+<section class="py-5 text-center container">
+  <div class="row py-lg-5">
+    <div class="col-lg-6 col-md-8 mx-auto">
+      {% if name %}
+      <h1 class="fw-dark">Hello, {{name}}!</h1>
+      {% else %}
+      <h1 class="fw-dark">Hello, World!</h1>
+      {% endif %}
+      <div>
+      </div>
+</section>
+
+<!-- container with form -->
+<div class="container">
+  <div class="row">
+    <form method="POST">
+      {{ form.hidden_tag() }}
+      <div class="row g-3">
+        <div class="col-md-8 mb-3 form-group">
+          {{ form.name.label }}
+          {{ form.name(class_="form-control") }}
+        </div>
+        <div class="col-md-8 mb-3 form-group">
+          {{ form.submit(class_="form-control btn-dark") }}
+        </div>
+    </form>
+  </div>
+  <hr>
+</div>
+{% endblock%}
