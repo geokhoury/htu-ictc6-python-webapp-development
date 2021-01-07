@@ -1,0 +1,3 @@
+[submodule "W10/S1/flask-blog"]
+	path = W10/S1/flask-blog
+	url = git@github.com:geokhoury/flask-blog.git
