@@ -1,6 +1,3 @@
-[submodule "flask-blog"]
-	path = flask-blog
-	url = git@github.com:geokhoury/flask-blog.git
-[submodule "W10/S1/--force"]
-	path = W10/S1/--force
+[submodule "W10/S1/flask-blog"]
+	path = W10/S1/flask-blog
 	url = git@github.com:geokhoury/flask-blog.git
