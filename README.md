@@ -42,9 +42,9 @@
 | No Class                                                    | NA             | NA                            |              NA               |
 | No Class                                                    | NA             | NA                            |              NA               |
 | **Week 11 - Databases**                                     |
-| [W11S1](./W11/lecture-notes)                                | [S1](./W11/S1) | [CA21](./W11/S1/CA21/CA21.md) | [PA06](./W11/S1/PA06/PA06.md) |
+| [W11S1](./W11/lecture-notes)                                | [S1](./W11/S1) | NA                            |              NA               |
 | [W11S2](./W11/lecture-notes)                                | [S2](./W11/S2) | NA                            |              NA               |
-| [W11S3](./W11/lecture-notes)                                | [S3](./W11/S3) | NA                            |              NA               |
+| [W11S3](./W11/lecture-notes)                                | [S3](./W11/S3) | [CA21](./W11/S3/CA21/CA21.md) | [PA06](./W11/S1/PA06/PA06.md) |
 | **Week 12 - Databases**                                     |
 | [W12S1](./W12/lecture-notes)                                | [S1](./W12/S1) | [CA24](./W12/S1/CA24/CA24.md) | [PA07](./W11/S1/PA07/PA07.md) |
 | [W12S2](./W12/lecture-notes)                                | [S2](./W12/S2) | NA                            |              NA               |
